@@ -1,0 +1,108 @@
+name = Hotel Diamond
+description = Drupal 7.
+core = 7.x
+engine = phptemplate
+
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/menus.css
+stylesheets[all][] = css/responsive.css
+stylesheets[all][] = js/rs-plugin/css/font-style.css
+
+
+
+scripts[] = js/uniform.js
+scripts[] = js/template.js
+scripts[] = js/responsive.js
+
+scripts[] = js/libs/modernizr-2.0.6.min.js
+
+scripts[] = js/libs/gumby.min.js
+
+scripts[] = js/jquery.flexslider-min.js
+;scripts[] = js/modernizr.custom.js
+
+
+scripts[] = js/jquery.isotope.min.js
+
+
+
+;REVOLUTION BANNER CSS SETTINGS
+stylesheets[all][] = js/rs-plugin/css/settings.css
+
+scripts[] = js/rs-plugin/jquery.themepunch.plugins.min.js
+scripts[] = js/rs-plugin/jquery.themepunch.revolution.min.js
+
+regions[topbar_left]   = Top Bar Left
+regions[topbar_right]   = Top Bar Right
+regions[slider]    		   = Panel Slider
+regions[slider_r]    		   = Refine Slider
+regions[box1]    		   = Box first
+regions[box2]    		   = Box second
+regions[box3]    		   = Box third
+regions[sidebar]    	   = Sidebar
+regions[content_top]      		= Content Top
+regions[content] 	       		= Content
+regions[content_bottom]    		= Content Bottom
+regions[content_bottom_left]    = Content Bottom Left
+regions[content_bottom_right]    = Content Bottom Right
+regions[prefooter_first]   = Prefooter First
+regions[prefooter_second]  = Prefooter Second
+regions[footer_first]      = Footer First
+regions[footer_second]     = Footer Second
+regions[footer_third]      = Footer Third
+regions[copyright]         = Copyright
+
+
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[breadcrumb_title] = 1
+settings[slider-show] = rev
+settings[layout_mode] = boxed
+settings[sidebar_mode] = right
+
+settings[gallery-columns] = 4
+
+settings[body_font] = Open Sans
+settings[heading_font] = Open Sans
+settings[menu_font] = Open Sans
+
+settings[contact-map-zoom] = 10
+
+settings[body_font_color] = #242A31
+settings[body_font_link_color] = #555555
+settings[body_font_link_color_hover] = #e3a343
+settings[heading_font_color] = #444444
+settings[style_menu_color] = #242A31
+settings[style_menu_color_hover] = #3d4a59
+settings[style_menu_font] = #ffffff
+settings[style_header_top_color] = #242A31
+settings[style_page_title_color] = #ffffff
+settings[style_page_title_bgcolor] = #131313
+settings[style_breadcrumb_font_color] = #DAF8FE
+settings[style_footer_top_border_color] = #B39D28
+settings[style_footer_bgcolor] = #242A31
+settings[style_footer_font_color] = #ffffff
+
+
+settings[contact-map-zoom] = 10
+settings[contact-map] = Melburne, Australia
+
+
+variables[admin_theme] = 'seven'
+
+; Information added by drupal.org packaging script on 2013-03-06
+project = "hoteldiamond"
+datestamp = "1352325857"
+
+
+
